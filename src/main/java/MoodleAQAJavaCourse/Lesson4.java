@@ -15,11 +15,11 @@ public class Lesson4 {
         person[3] = new Person("Alexandrov Alex","AQA","","+78922564815","10000000",56);
         person[4] = new Person("Stepanov Stepan","DEV","","+78114562301","10000000",78);
 
-        if(person[0].age >40){
-            System.out.println(person[0].FIO);
-        }
+//        if(person[0].age > 40){
+//            System.out.println(person[0].getFIO());
+//        }
 
-//        getNamePersonAgeAbove40(person);
+        getNamePersonAgeAbove40(person);
     }
 
     static class Person{
@@ -48,14 +48,15 @@ public class Lesson4 {
     private static void getNamePersonAgeAbove40(Person[] person) {
         String name = null;
 
-//        for (Person pers : person){
-//            if(pers.age > 40){
-//                name = pers.getFIO();
-//            }
-//        }
-//
+        for (Person pers : person){
+            if(pers.age > 40){
+                name = pers.getFIO();
+                System.out.println(name);
+            }
+        }
+
 //        for (Person pers : person) {
-//            if (Arrays.stream(person).anyMatch(n -> n.age > 40)) {
+//            if (Arrays.stream(person).allMatch(n -> n.age > 40)) {
 //                name = pers.getFIO();
 //                System.out.println(name);
 //            }

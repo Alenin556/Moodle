@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="add lesson3 class with project work">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="create class Persons with method to find person whos age above 40, test methods">
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711472538346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create class Persons with method to find person whos age above 40, test methods">
+      <created>1711542108345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711542108345</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +183,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="new packages" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="create class Persons with method to find person whos age above 40, test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="create class Persons with method to find person whos age above 40, test methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
