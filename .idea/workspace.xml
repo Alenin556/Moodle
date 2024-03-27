@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="create class Persons with method to find person whos age above 40, test methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_3" />
+        <entry key="$PROJECT_DIR$" value="Lesson_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +113,7 @@
         <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.Lesson2" />
         <item itemvalue="Application.Arraysss" />
-        <item itemvalue="Application.Arraysss" />
+        <item itemvalue="Application.Lesson4" />
       </list>
     </recent_temporary>
   </component>
