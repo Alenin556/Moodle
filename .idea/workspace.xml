@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Lesson 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Arraysss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="add lesson3 class with project work">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MoodleAQAJavaCourse/Lesson4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +54,7 @@
       <recent name="C:\GitHubProjects\MoodleAQAJava\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Arraysss">
+  <component name="RunManager" selected="Application.Lesson4">
     <configuration name="Arraysss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chernovik.Arraysss" />
       <module name="MoodleAQAJava.main" />
@@ -112,10 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arraysss" />
         <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.Lesson2" />
+        <item itemvalue="Application.Arraysss" />
+        <item itemvalue="Application.Arraysss" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lesson_1" />
+                        <option value="Lesson_4" />
                       </list>
                     </value>
                   </entry>
