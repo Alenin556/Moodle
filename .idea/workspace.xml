@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="commit new type salary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/FileHandlerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/writer.csv" afterDir="false" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 6 : выполнено практическое задание">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson7/ArraysHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson7/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson7/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_5" />
+        <entry key="$PROJECT_DIR$" value="Lesson_6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +62,9 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="d2edb52d9f244a4179cb791505081b23b309cfe9" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2eEajiMma9boUft1tMcPSJFz1mO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,7 +73,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lesson7.Runner">
+    <configuration name="Lesson7.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson7.Runner" />
+      <module name="MoodleAQAJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson6.Runner" />
       <module name="MoodleAQAJava.main" />
@@ -87,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson7.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -100,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1711472328754</updated>
     </task>
+    <task id="LOCAL-00001" summary="Урок 6 : выполнено практическое задание">
+      <created>1722834501996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722834501996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -115,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Урок 6 : выполнено практическое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 6 : выполнено практическое задание" />
   </component>
 </project>
