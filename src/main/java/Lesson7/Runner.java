@@ -1,9 +1,9 @@
 package Lesson7;
 
-import java.util.Arrays;
-import java.util.Objects;
 
 import static Lesson7.ArraysHandler.getSumFromCells;
+import static Lesson7.ArraysHandler.logger;
+
 
 public class Runner {
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
@@ -17,9 +17,22 @@ public class Runner {
         String[][] twoDimArrayTypeException = new String[][]{{"1", "1", "a", "1"}, {"1", "м", "1", "о"}, {"1", "п", "1", "1"},{"a", "f", "1", "1"}};
 
 
+        getSumFromCells(twoDimArray);
+        System.out.println("\n");
 
+        try {
+            getSumFromCells(twoDimArrayLengthException);
+        } catch (MyArrayDataException exception){
+            logger.error("При обработке возникла ошибка.");
+        }
+        System.out.println("\n");
 
-        getSumFromCells(twoDimArrayTypeException);
+        try {
+            getSumFromCells(twoDimArrayTypeException);
+        } catch (MyArrayDataException exception){
+            logger.error("При обработке возникла ошибка.");
+        }
+
 
     }
 }

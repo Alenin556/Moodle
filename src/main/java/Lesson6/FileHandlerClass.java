@@ -1,8 +1,6 @@
 package Lesson6;
 
 import com.opencsv.*;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.File;
 import java.io.FileReader;
