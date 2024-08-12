@@ -66,6 +66,9 @@ public class Runner {
         box1.transfer(box3);
         box3.getBoxInfo();
 
+        box1.transfer(box2);
+        box2.getBoxInfo();
+
 
 
 
