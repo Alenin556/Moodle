@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 9 : практическое задание выполнено">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/SimpleBox.java" afterDir="false" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 10 : практическое задание выполнено">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson10/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Fruits/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723095527635</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Урок 10 : практическое задание выполнено">
+      <created>1723468667514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723468667514</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -277,7 +280,9 @@
     <MESSAGE value="Урок 7 : практическое задания выполнено" />
     <MESSAGE value="Урок 8 : практическое задания выполнено" />
     <MESSAGE value="Урок 9 : практическое задание выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 9 : практическое задание выполнено" />
+    <MESSAGE value="Урок 10 : практическое задание выполнено !!!!" />
+    <MESSAGE value="Урок 10 : практическое задание выполнено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 10 : практическое задание выполнено" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

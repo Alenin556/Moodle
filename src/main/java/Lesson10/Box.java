@@ -29,8 +29,9 @@ public class Box{
         }
     }
 
+
     //TODO получить список элементов коробки
-    public List<Fruit> getBoxValues(){
+    public List<Fruit> getBoxValuesList(){
         List<Fruit> list = new ArrayList<>();
         for (Fruit fruit : box){
             list.add(fruit);
@@ -77,14 +78,10 @@ public class Box{
         }
     }
 
+    //TODO переложить фрукты из текущей в ту которая дается на вход
     public void transfer(Box enterBox){
-        List <Fruit> sumFruit = new ArrayList<>();
-        List<Fruit> enterFruit = new ArrayList<>();
-        if(getClass() == enterBox.getClass()){
-           enterFruit = enterBox.getBoxValues();
-        }
-        for (Fruit f : enterFruit) {
-            box.add(f);
+        for(Fruit f : box){
+            enterBox.addFruitInBox(f);
         }
     }
 
