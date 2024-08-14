@@ -8,11 +8,11 @@ import Lesson10.Fruits.Orange;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Box{
+public class Box<T>{
 
-    private Fruit obj;
+    private T obj;
 
-    public Box(Fruit obj) {
+    public Box(T obj) {
         this.obj = obj;
         box.add(obj);
     }
@@ -21,26 +21,26 @@ public class Box{
         return obj;
     }
 
-    List<Fruit> box = new ArrayList<>();
+    List<T> box = new ArrayList<>();
 
     public void getBoxInfo(){
-        for(Fruit f : box){
-            System.out.println(f.getName());
+        for(T f : box){
+            System.out.println(f.getClass());
         }
     }
 
 
     //TODO получить список элементов коробки
-    public List<Fruit> getBoxValuesList(){
-        List<Fruit> list = new ArrayList<>();
-        for (Fruit fruit : box){
+    public List<T> getBoxValuesList(){
+        List<T> list = new ArrayList<>();
+        for (T fruit : box){
             list.add(fruit);
         }
         return list;
     }
 
     //TODO добавить в корзинку фрукт тогда, когда он совпадает по типу
-    public void addFruitInBox(Fruit f){
+    public void addFruitInBox(T f){
         if(box.get(0).getClass() == f.getClass()){
             box.add(f);
         } else {
@@ -55,7 +55,7 @@ public class Box{
         float weight = 0;
         int count = 0;
         float weightSum = 0;
-        for (Fruit f : box) {
+        for (T f : box) {
             if (f.getClass() == Apple.class) {
                 weight = 1.0f;
                 count ++;
@@ -80,7 +80,7 @@ public class Box{
 
     //TODO переложить фрукты из текущей в ту которая дается на вход
     public void transfer(Box enterBox){
-        for(Fruit f : box){
+        for(T f : box){
             enterBox.addFruitInBox(f);
         }
     }
