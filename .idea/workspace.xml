@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 8 : практическое задания выполнено">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson9/AgeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson9/CollectionsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson9/LoginHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson9/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson9/LoginHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +87,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -269,5 +268,12 @@
     <MESSAGE value="Урок 7 : практическое задания выполнено" />
     <MESSAGE value="Урок 8 : практическое задания выполнено" />
     <option name="LAST_COMMIT_MESSAGE" value="Урок 8 : практическое задания выполнено" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Lesson10.Box" memberName="box" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
