@@ -1,8 +1,13 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
 
 import static org.example.Main.getFactorial;
-import static org.example.Main.successNotification;
+
+import static org.testng.Assert.assertEquals;
 
 public class FactorialTestJ {
 
@@ -12,16 +17,17 @@ public class FactorialTestJ {
         Integer[] nums = new Integer[]{1,2,3,4,5,6,7,8,9,10};
 
         Integer factor = getFactorial(nums);
+        Integer result = 3628800;
 
-        Assertions.assertEquals(3628800,factor);
+        Assert.assertEquals(result,factor);
     }
 
     @Test
-    public void getFactorialTypeTest(){
+    public void getFactorialLengthTest(){
         Integer[] nums = new Integer[]{};
 
         Integer factor = getFactorial(nums);
 
-        Assertions.assertEquals(null,factor);
+        assertEquals(null,factor);
     }
 }
