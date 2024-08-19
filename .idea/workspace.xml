@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="">
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 12 : практическое задание">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FactorialTestJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactorialTestJ.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,39 +91,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.FactorialTestJ">
-    <configuration name="FactorialTestJ.getFactorialLengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;FactorialTestJ.getFactorialLengthTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.FactorialTestJ.getFactorialResultLengthTest">
     <configuration name="FactorialTestJ.getFactorialTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,29 +115,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;FactorialTestJ.getFactorialTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FactorialTestJ.getFactorialTypeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;FactorialTestJ.getFactorialTypeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,19 +145,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MoodleAQAJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MoodleAQAJava" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FactorialTestJ" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -215,13 +156,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactorialTestJ.getFactorialNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MoodleAQAJava.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTestJ" />
+      <option name="METHOD_NAME" value="getFactorialNegativeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTestJ.getFactorialResultLengthTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MoodleAQAJava.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTestJ" />
+      <option name="METHOD_NAME" value="getFactorialResultLengthTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FactorialTestJ.getFactorialResultLengthTest" />
+        <item itemvalue="TestNG.FactorialTestJ.getFactorialNegativeTest" />
         <item itemvalue="TestNG.FactorialTestJ" />
         <item itemvalue="Gradle.FactorialTestJ.getFactorialTest" />
         <item itemvalue="Gradle.Moodle [dependencies]" />
-        <item itemvalue="Gradle.FactorialTestJ.getFactorialLengthTest" />
-        <item itemvalue="Gradle.FactorialTestJ.getFactorialTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723697242014</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Урок 12 : практическое задание">
+      <created>1723700268024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723700268024</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -348,9 +320,19 @@
     <MESSAGE value="Урок 10 : практическое задание выполнено !!!!" />
     <MESSAGE value="Урок 10 : практическое задание выполнено" />
     <MESSAGE value="Урок 11 : delete gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 11 : delete gradle" />
+    <MESSAGE value="Урок 12 : практическое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 12 : практическое задание" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Lesson10.Box" memberName="box" />
