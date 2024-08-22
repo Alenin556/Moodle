@@ -27,7 +27,6 @@ public class BaseDriverSetup {
     public static void tearDown() throws InterruptedException {
         Selenide.closeWebDriver();
         log.info(" - 'Test session ends'");
-        Thread.sleep(2000);
     }
 
 }
