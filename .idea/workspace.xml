@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 13 : практическое задание">
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 13 : практическое задание (доработки)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MTSMainPAge/MtsMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MTSMainPAge/MtsMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/BaseDriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/BaseDriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/MTSUiAutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/MTSUiAutoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_13" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitRewordedCommitMessages">
@@ -96,8 +100,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MTSUiAutoTest.onlinePaymentSectionTest">
-    <configuration name="MTSUiAutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MTSUiAutoTest.onlinePaymentTest">
+    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionArrearsPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
@@ -107,28 +111,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Selenide.WebTests" />
       <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTSUiAutoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MTSUiAutoTest.onlinePaymentInfoLinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MoodleAQAJava.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenide.WebTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenide.WebTests" />
-      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="onlinePaymentInfoLinkTest" />
+      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionArrearsPaymentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MTSUiAutoTest.onlinePaymentLogosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionConnectionServicePaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
@@ -138,13 +127,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Selenide.WebTests" />
       <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="onlinePaymentLogosTest" />
+      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionConnectionServicePaymentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MTSUiAutoTest.onlinePaymentSectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionCreditPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
@@ -154,7 +143,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Selenide.WebTests" />
       <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="onlinePaymentSectionTest" />
+      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionCreditPaymentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionHomeInternetPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodleAQAJava.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenide.WebTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenide.WebTests" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTSUiAutoTest" />
+      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionHomeInternetPaymentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MTSUiAutoTest.onlinePaymentSectionTest" />
-        <item itemvalue="JUnit.MTSUiAutoTest.onlinePaymentInfoLinkTest" />
-        <item itemvalue="JUnit.MTSUiAutoTest" />
-        <item itemvalue="JUnit.MTSUiAutoTest.onlinePaymentLogosTest" />
         <item itemvalue="JUnit.MTSUiAutoTest.onlinePaymentTest" />
+        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionArrearsPaymentTest" />
+        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionCreditPaymentTest" />
+        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionHomeInternetPaymentTest" />
+        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionConnectionServicePaymentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724048780759</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Урок 13 : практическое задание (доработки)">
+      <created>1724338023251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724338023251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,20 +238,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Урок 11 : добавлена зависимость selen" />
     <MESSAGE value="Урок 13 : практическое задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 13 : практическое задание" />
+    <MESSAGE value="Урок 13 : практическое задание (доработки)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 13 : практическое задание (доработки)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Selenide/WebTests/MTSUiAutoTest.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="2" />
+          <line>78</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Selenide/WebTests/MTSUiAutoTest.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="3" />
+          <line>177</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -252,5 +265,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MoodleAQAJava$MTSUiAutoTest_checkFieldsTextPaymentSectionHomeInternetPaymentTest.ic" NAME="MTSUiAutoTest.checkFieldsTextPaymentSectionHomeInternetPaymentTest Coverage Results" MODIFIED="1724339247260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Selenide.WebTests.*</FILTER>
+    </SUITE>
   </component>
 </project>
