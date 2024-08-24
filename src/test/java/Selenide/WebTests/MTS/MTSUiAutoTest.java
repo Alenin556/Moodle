@@ -1,5 +1,6 @@
-package Selenide.WebTests;
+package Selenide.WebTests.MTS;
 
+import Selenide.WebTests.BaseDriverSetup;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.*;
@@ -12,7 +13,7 @@ import static com.codeborne.selenide.WebDriverRunner.url;
 import static org.assertj.core.api.Assertions.assertThat;
 import static pages.MTSMainPAge.MtsMainPage.*;
 
-public class MTSUiAutoTest extends BaseDriverSetup{
+public class MTSUiAutoTest extends BaseDriverSetup {
 
     MtsMainPage mtsMainPage = new MtsMainPage();
 
@@ -22,13 +23,6 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         mtsMainPage.acceptCookies();
         mtsMainPage.scrollToTestSection();
     }
-
-    @AfterEach
-    public void teardown(){
-        Selenide.closeWebDriver();
-        Selenide.clearBrowserCookies();
-    }
-
 
     //TODO 1)ѕроверить название указанного блока;
     @Test

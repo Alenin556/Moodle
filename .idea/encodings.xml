@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/main/java/pages/MTSMainPAge/MtsMainPage.java" charset="windows-1251" />
-    <file url="PROJECT" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pages/WBPage/WBPage.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Selenide/WebTests/Wildberries/WildberriesPaymentTest.java" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
