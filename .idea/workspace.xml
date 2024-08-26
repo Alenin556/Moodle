@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 15 : практическое задание">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/ApiRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" afterDir="false" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 16 : практическое задание">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +100,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RequestsApiTests.deleteEchoApiResponseTest">
-    <configuration name="RequestsApiTests.deleteEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RequestsApiTests">
+    <configuration name="RequestsApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
       <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
-      <option name="METHOD_NAME" value="deleteEchoApiResponseTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,7 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RequestsApiTests.deleteEchoApiResponseTest" />
+        <item itemvalue="JUnit.RequestsApiTests" />
         <item itemvalue="JUnit.RequestsApiTests.patchEchoApiResponseTest" />
         <item itemvalue="JUnit.RequestsApiTests.putEchoApiResponseTest" />
         <item itemvalue="JUnit.RequestsApiTests.postEchoApiResponseTest" />
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724583883535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Урок 16 : практическое задание">
+      <created>1724649003211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724649003211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +275,8 @@
     <MESSAGE value="Урок 13 : практическое задание" />
     <MESSAGE value="Урок 13 : практическое задание (доработки)" />
     <MESSAGE value="Урок 15 : практическое задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 15 : практическое задание" />
+    <MESSAGE value="Урок 16 : практическое задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 16 : практическое задание" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

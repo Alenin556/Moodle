@@ -22,6 +22,16 @@ public class Specifications {
 
     public final static Integer statusCode200 = 200;
 
+
+    public final static String responseExpHeaderHost = "postman-echo.com";
+    public final static String responseExpXFP = "http";
+    public final static String responseExpConnection = "close";
+    public final static String responseExpXFPort = "443";
+    public final static String responseExpCT = "application/json";
+    public final static String responseExpAccept = "*/*";
+    public final static String responseExpUA = "Apache-HttpClient/4.5.13 (Java/11.0.22)";
+    public final static String responseExpAE = "gzip,deflate";
+
     public RequestSpecification requestSpec(String url) {
         return new RequestSpecBuilder()
                 .setBaseUri(url)

@@ -23,10 +23,29 @@ public class RequestsApiTests {
         String getEP = "get";
         Response response = getRequest(getEP);
 
+        String responseHeadersHost = response.jsonPath().get("headers.host");
+        String responseHeadersXFP = response.jsonPath().get("headers.x-forwarded-proto");
+        String responseHeadersConnection = response.jsonPath().get("headers.connection");
+        String responseHeadersXFPort = response.jsonPath().get("headers.x-forwarded-port");
+        String responseHeadersCT = response.jsonPath().get("headers.content-type");
+        String responseHeadersAccept = response.jsonPath().get("headers.accept");
+        String responseHeadersUA = response.jsonPath().get("headers.user-agent");
+        String responseHeadersAE = response.jsonPath().get("headers.accept-encoding");
+
         String responseUrl = response.jsonPath().get("url");
 
-        Assertions.assertEquals(getResponseUrl,responseUrl);
         Assertions.assertEquals(statusCode200,response.getStatusCode());
+
+        Assertions.assertEquals(responseExpHeaderHost,responseHeadersHost);
+        Assertions.assertEquals(responseExpXFP,responseHeadersXFP);
+        Assertions.assertEquals(responseExpConnection,responseHeadersConnection);
+        Assertions.assertEquals(responseExpXFPort,responseHeadersXFPort);
+        Assertions.assertEquals(responseExpCT,responseHeadersCT);
+        Assertions.assertEquals(responseExpAccept,responseHeadersAccept);
+        Assertions.assertEquals(responseExpUA,responseHeadersUA);
+        Assertions.assertEquals(responseExpAE,responseHeadersAE);
+
+        Assertions.assertEquals(getResponseUrl,responseUrl);
     }
 
     @Test
@@ -38,10 +57,29 @@ public class RequestsApiTests {
 
         Response response = postRequest(postBody);
 
+        String responseHeadersHost = response.jsonPath().get("headers.host");
+        String responseHeadersXFP = response.jsonPath().get("headers.x-forwarded-proto");
+        String responseHeadersConnection = response.jsonPath().get("headers.connection");
+        String responseHeadersXFPort = response.jsonPath().get("headers.x-forwarded-port");
+        String responseHeadersCT = response.jsonPath().get("headers.content-type");
+        String responseHeadersAccept = response.jsonPath().get("headers.accept");
+        String responseHeadersUA = response.jsonPath().get("headers.user-agent");
+        String responseHeadersAE = response.jsonPath().get("headers.accept-encoding");
+
         String responseValue = response.jsonPath().get("json.test");
         String responseUrl = response.jsonPath().get("url");
 
         Assertions.assertEquals(statusCode200,response.getStatusCode());
+
+        Assertions.assertEquals(responseExpHeaderHost,responseHeadersHost);
+        Assertions.assertEquals(responseExpXFP,responseHeadersXFP);
+        Assertions.assertEquals(responseExpConnection,responseHeadersConnection);
+        Assertions.assertEquals(responseExpXFPort,responseHeadersXFPort);
+        Assertions.assertEquals(responseExpCT,responseHeadersCT);
+        Assertions.assertEquals(responseExpAccept,responseHeadersAccept);
+        Assertions.assertEquals(responseExpUA,responseHeadersUA);
+        Assertions.assertEquals(responseExpAE,responseHeadersAE);
+
         Assertions.assertEquals(value,responseValue);
         Assertions.assertEquals(postResponseUrl,responseUrl);
     }
@@ -49,14 +87,34 @@ public class RequestsApiTests {
     @Test
     public void putEchoApiResponseTest(){
 
-        String putStringValue = "AutoTestPutEChoValue";
+        String putStringValue = "AutoTestPutEchoValue";
 
         Response response = putRequest(putStringValue);
+
+
+        String responseHeadersHost = response.jsonPath().get("headers.host");
+        String responseHeadersXFP = response.jsonPath().get("headers.x-forwarded-proto");
+        String responseHeadersConnection = response.jsonPath().get("headers.connection");
+        String responseHeadersXFPort = response.jsonPath().get("headers.x-forwarded-port");
+        String responseHeadersCT = response.jsonPath().get("headers.content-type");
+        String responseHeadersAccept = response.jsonPath().get("headers.accept");
+        String responseHeadersUA = response.jsonPath().get("headers.user-agent");
+        String responseHeadersAE = response.jsonPath().get("headers.accept-encoding");
 
         String responseValue = response.jsonPath().get("data");
         String responseUrl = response.jsonPath().get("url");
 
         Assertions.assertEquals(statusCode200,response.getStatusCode());
+
+        Assertions.assertEquals(responseExpHeaderHost,responseHeadersHost);
+        Assertions.assertEquals(responseExpXFP,responseHeadersXFP);
+        Assertions.assertEquals(responseExpConnection,responseHeadersConnection);
+        Assertions.assertEquals(responseExpXFPort,responseHeadersXFPort);
+        Assertions.assertEquals(responseExpCT,responseHeadersCT);
+        Assertions.assertEquals(responseExpAccept,responseHeadersAccept);
+        Assertions.assertEquals(responseExpUA,responseHeadersUA);
+        Assertions.assertEquals(responseExpAE,responseHeadersAE);
+
         Assertions.assertEquals(putStringValue,responseValue);
         Assertions.assertEquals(putResponseUrl,responseUrl);
     }
@@ -64,14 +122,33 @@ public class RequestsApiTests {
     @Test
     public void patchEchoApiResponseTest(){
 
-        String putStringValue = "AutoTestPatchtEChoValue";
+        String putStringValue = "AutoTestPatchEchoValue";
 
         Response response = patchRequest(putStringValue);
+
+        String responseHeadersHost = response.jsonPath().get("headers.host");
+        String responseHeadersXFP = response.jsonPath().get("headers.x-forwarded-proto");
+        String responseHeadersConnection = response.jsonPath().get("headers.connection");
+        String responseHeadersXFPort = response.jsonPath().get("headers.x-forwarded-port");
+        String responseHeadersCT = response.jsonPath().get("headers.content-type");
+        String responseHeadersAccept = response.jsonPath().get("headers.accept");
+        String responseHeadersUA = response.jsonPath().get("headers.user-agent");
+        String responseHeadersAE = response.jsonPath().get("headers.accept-encoding");
 
         String responseValue = response.jsonPath().get("data");
         String responseUrl = response.jsonPath().get("url");
 
         Assertions.assertEquals(statusCode200,response.getStatusCode());
+
+        Assertions.assertEquals(responseExpHeaderHost,responseHeadersHost);
+        Assertions.assertEquals(responseExpXFP,responseHeadersXFP);
+        Assertions.assertEquals(responseExpConnection,responseHeadersConnection);
+        Assertions.assertEquals(responseExpXFPort,responseHeadersXFPort);
+        Assertions.assertEquals(responseExpCT,responseHeadersCT);
+        Assertions.assertEquals(responseExpAccept,responseHeadersAccept);
+        Assertions.assertEquals(responseExpUA,responseHeadersUA);
+        Assertions.assertEquals(responseExpAE,responseHeadersAE);
+
         Assertions.assertEquals(putStringValue,responseValue);
         Assertions.assertEquals(patchResponseUrl,responseUrl);
     }
@@ -83,10 +160,29 @@ public class RequestsApiTests {
 
         Response response = deleteRequest(deleteArgument);
 
+        String responseHeadersHost = response.jsonPath().get("headers.host");
+        String responseHeadersXFP = response.jsonPath().get("headers.x-forwarded-proto");
+        String responseHeadersConnection = response.jsonPath().get("headers.connection");
+        String responseHeadersXFPort = response.jsonPath().get("headers.x-forwarded-port");
+        String responseHeadersCT = response.jsonPath().get("headers.content-type");
+        String responseHeadersAccept = response.jsonPath().get("headers.accept");
+        String responseHeadersUA = response.jsonPath().get("headers.user-agent");
+        String responseHeadersAE = response.jsonPath().get("headers.accept-encoding");
+
         String responseValue = response.jsonPath().get("data");
         String responseUrl = response.jsonPath().get("url");
 
         Assertions.assertEquals(statusCode200,response.getStatusCode());
+
+        Assertions.assertEquals(responseExpHeaderHost,responseHeadersHost);
+        Assertions.assertEquals(responseExpXFP,responseHeadersXFP);
+        Assertions.assertEquals(responseExpConnection,responseHeadersConnection);
+        Assertions.assertEquals(responseExpXFPort,responseHeadersXFPort);
+        Assertions.assertEquals(responseExpCT,responseHeadersCT);
+        Assertions.assertEquals(responseExpAccept,responseHeadersAccept);
+        Assertions.assertEquals(responseExpUA,responseHeadersUA);
+        Assertions.assertEquals(responseExpAE,responseHeadersAE);
+
         Assertions.assertEquals(deleteArgument,responseValue);
         Assertions.assertEquals(deleteResponseUrl,responseUrl);
     }
