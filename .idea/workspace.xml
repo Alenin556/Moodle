@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 15 : практическое задание" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 15 : практическое задание">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/ApiRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +65,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_14" />
+        <entry key="$PROJECT_DIR$" value="Lesson_15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,12 +74,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="aa" />
-        <option name="rewordedMessage" value="add pom&#10;&#10;&#10;add pom&#10;&#10;&#10;add pom&#10;&#10;&#10;aa" />
+        <option name="originalMessage" value="Урок 15 : практическое задание" />
+        <option name="rewordedMessage" value="Урок 15 : практическое задание&#10;&#10;&#10;Урок 15 : практическое задание" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="315b874d90843ab41c6b4d5df277f1ca232be5f9" />
+    <option name="onto" value="9f9f2630fb43032142679bd00c38639764e04fe1" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,79 +102,82 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WildberriesPaymentTest.addItemsInBasket">
-    <configuration name="WBPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.WBPage.WBPage" />
-      <module name="MoodleAQAJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.WBPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionArrearsPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RequestsApiTests.deleteEchoApiResponseTest">
+    <configuration name="RequestsApiTests.deleteEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenide.WebTests.MTS.*" />
+          <option name="PATTERN" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenide.WebTests.MTS" />
-      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTS.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionArrearsPaymentTest" />
+      <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
+      <option name="METHOD_NAME" value="deleteEchoApiResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MTSUiAutoTest.checkFieldsTextPaymentSectionCreditPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestsApiTests.getEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenide.WebTests.MTS.*" />
+          <option name="PATTERN" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenide.WebTests.MTS" />
-      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTS.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="checkFieldsTextPaymentSectionCreditPaymentTest" />
+      <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
+      <option name="METHOD_NAME" value="getEchoApiResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MTSUiAutoTest.onlinePaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestsApiTests.patchEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenide.WebTests.MTS.*" />
+          <option name="PATTERN" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenide.WebTests.MTS" />
-      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.MTS.MTSUiAutoTest" />
-      <option name="METHOD_NAME" value="onlinePaymentTest" />
+      <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
+      <option name="METHOD_NAME" value="patchEchoApiResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildberriesPaymentTest.addItemsInBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestsApiTests.postEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenide.WebTests.Wildberries.*" />
+          <option name="PATTERN" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenide.WebTests.Wildberries" />
-      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.Wildberries.WildberriesPaymentTest" />
-      <option name="METHOD_NAME" value="addItemsInBasket" />
+      <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
+      <option name="METHOD_NAME" value="postEchoApiResponseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestsApiTests.putEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodleAQAJava.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
+      <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
+      <option name="METHOD_NAME" value="putEchoApiResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WildberriesPaymentTest.addItemsInBasket" />
-        <item itemvalue="Application.WBPage" />
-        <item itemvalue="JUnit.MTSUiAutoTest.onlinePaymentTest" />
-        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionArrearsPaymentTest" />
-        <item itemvalue="JUnit.MTSUiAutoTest.checkFieldsTextPaymentSectionCreditPaymentTest" />
+        <item itemvalue="JUnit.RequestsApiTests.deleteEchoApiResponseTest" />
+        <item itemvalue="JUnit.RequestsApiTests.patchEchoApiResponseTest" />
+        <item itemvalue="JUnit.RequestsApiTests.putEchoApiResponseTest" />
+        <item itemvalue="JUnit.RequestsApiTests.postEchoApiResponseTest" />
+        <item itemvalue="JUnit.RequestsApiTests.getEchoApiResponseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724583819695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Урок 15 : практическое задание">
+      <created>1724583883535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724583883535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,19 +245,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Lesson_15" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
