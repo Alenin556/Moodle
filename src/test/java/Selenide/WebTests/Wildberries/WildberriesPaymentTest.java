@@ -45,4 +45,3 @@ public class WildberriesPaymentTest {
     }
 
 }
-//div/div/button[1]/span[1]

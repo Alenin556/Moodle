@@ -6,10 +6,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import pages.MTSMainPAge.MtsMainPage;
 
-import static com.codeborne.selenide.Selenide.open;
 
 
 public class BaseDriverSetup {
@@ -27,8 +25,7 @@ public class BaseDriverSetup {
 
     @AfterEach
     public void teardown(){
-        Selenide.closeWebDriver();
-        Selenide.clearBrowserCookies();
+        Selenide.closeWindow();
     }
 
 
