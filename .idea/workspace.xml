@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 16 : практическое задание">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/Specifications.java" afterDir="false" />
-    </list>
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 16 : практическое задание" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
