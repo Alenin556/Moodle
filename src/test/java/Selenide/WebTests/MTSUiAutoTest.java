@@ -9,8 +9,6 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.url;
-import static org.assertj.core.api.Assertions.assertThat;
-import static pages.MTSMainPAge.MtsMainPage.*;
 
 public class MTSUiAutoTest extends BaseDriverSetup{
 
@@ -29,16 +27,14 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         Selenide.clearBrowserCookies();
     }
 
-
-    //TODO 1)Проверить название указанного блока;
     @Test
     public void onlinePaymentLabelTest(){
         String onlinePaymentLabel = mtsMainPage.onlinePayment.getText();
-        String expctLabel = "Онлайн пополнение\nбез комиссии";
+        String expctLabel = "Онлайн пополнение\n" +
+                "без комиссии";
         Assertions.assertEquals(expctLabel,onlinePaymentLabel);
     }
 
-    //TODO 2)Проверить наличие логотипов платёжных систем;
     @Test
     public void onlinePaymentLogosTest(){
         Integer countPartners = mtsMainPage.getPartnersCount();
@@ -46,7 +42,6 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         Assertions.assertEquals(5,countPartners);
     }
 
-    //TODO 3)Проверить работу ссылки «Подробнее о сервисе»;;
     @Test
     public void onlinePaymentInfoLinkTest(){
         mtsMainPage.paymentInfoLink.click();
@@ -56,9 +51,6 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         Assertions.assertEquals(infoExpUrl,url);
     }
 
-    //TODO
-    // 4)Заполнить поля и проверить работу кнопки «Продолжить»
-    // (проверяем только вариант «Услуги связи», номер для теста 297777777)
     @Test
     public void onlinePaymentSectionTest(){
         String number = "(29)777-77-77";
@@ -103,13 +95,13 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionHomeInternetPaymentTest() throws InterruptedException {
 
-        String header = "Домашний интернет";
+        String header = "Услуги связи";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
-        String number = "Номер абонента";
-        String count = "Сумма";
-        String email = "E-mail для отправки чека";
+        String number = "(29)777-77-77";
+        String count = "100";
+        String email = "test@gmail.com";
 
         String numberField = mtsMainPage.internetPhoneNumberInputField.getAttribute("placeHolder");
         String transferField = mtsMainPage.transferSumInputField.getAttribute("placeHolder");
@@ -123,13 +115,13 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionCreditPaymentTest() throws InterruptedException {
 
-        String header = "Рассрочка";
+        String header = "Услуги связи";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
-        String number = "Номер счета на 44";
-        String count = "Сумма";
-        String email = "E-mail для отправки чека";
+        String number = "(29)777-77-77";
+        String count = "100";
+        String email = "test@gmail.com";
 
         String numberField = mtsMainPage.creditScoreInputField.getAttribute("placeHolder");
         String transferField = mtsMainPage.transferSumInputField.getAttribute("placeHolder");
@@ -143,13 +135,13 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionArrearsPaymentTest() throws InterruptedException {
 
-        String header = "Задолженность";
+        String header = "Услуги связи";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
-        String number = "Номер счета на 2073";
-        String count = "Сумма";
-        String email = "E-mail для отправки чека";
+        String number = "(29)777-77-77";
+        String count = "100";
+        String email = "test@gmail.com";
 
         String numberField = mtsMainPage.arrearsScoreInputField.getAttribute("placeHolder");
         String transferField = mtsMainPage.transferSumInputField.getAttribute("placeHolder");
@@ -165,7 +157,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         String number = "(29)777-77-77";
         String count = "100";
         String email = "test@gmail.com";
-        String header = "Услуги связи";
+        String header = "Услуги связи";;
 
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
@@ -178,7 +170,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         String actualLabelText = mtsMainPage.transferCountLabelSum.shouldBe(Condition.exist,Duration.ofSeconds(3)).getText();
         Assertions.assertEquals(expectedTranferSum,actualLabelText);
 
-        String expectedTranferSubmitButtonSum = "Оплатить 100 ?";
+        String expectedTranferSubmitButtonSum = "???????? 100 ?";
         String actualButtonText = mtsMainPage.transferSubmitButton.getText();
         Assertions.assertEquals(expectedTranferSubmitButtonSum,actualButtonText);
 
@@ -187,15 +179,15 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         Assertions.assertEquals(expectedTransferNumber,actualTransferNumber);
 
 
-        String cardNumber = "Номер карты";
-        String period = "Срок действия";
+        String cardNumber = "????? ?????";
+        String period = "???? ????????";
         String cvc = "CVC";
-        String name = "Имя держателя (как на карте)";
+        String name = "??? ????????? (??? ?? ?????)";
 
-        String cardNumberFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("Номер карты");
-        String periodFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("Срок действия");
+        String cardNumberFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("????? ?????");
+        String periodFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("???? ????????");
         String cvcFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("CVC");
-        String nameFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("Имя");
+        String nameFieldLabel = mtsMainPage.getCardPaymentInputFieldLabels("???");
 
         Assertions.assertEquals(cardNumber,cardNumberFieldLabel);
         Assertions.assertEquals(period,periodFieldLabel);
