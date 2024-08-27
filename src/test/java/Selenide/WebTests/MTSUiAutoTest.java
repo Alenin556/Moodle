@@ -30,8 +30,8 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void onlinePaymentLabelTest(){
         String onlinePaymentLabel = mtsMainPage.onlinePayment.getText();
-        String expctLabel = "Онлайн пополнение\n" +
-                "без комиссии";
+        String expctLabel = "РћРЅР»Р°Р№РЅ РїРѕРїРѕР»РЅРµРЅРёРµ\n" +
+                "Р±РµР· РєРѕРјРёСЃСЃРёРё";
         Assertions.assertEquals(expctLabel,onlinePaymentLabel);
     }
 
@@ -56,7 +56,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         String number = "(29)777-77-77";
         String count = "100";
         String email = "test@gmail.com";
-        String header = "Услуги связи";
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
 
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
@@ -76,12 +76,12 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionConnectionServicePaymentTest(){
 
-        String header = "Услуги связи";
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
-        String number = "Номер телефона";
-        String count = "Сумма";
-        String email = "E-mail для отправки чека";
+        String number = "РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°";
+        String count = "РЎСѓРјРјР°";
+        String email = "E-mail РґР»СЏ РѕС‚РїСЂР°РІРєРё С‡РµРєР°";
 
         String numberField = mtsMainPage.phoneNumberInputField.getAttribute("placeHolder");
         String transferField = mtsMainPage.transferSumInputField.getAttribute("placeHolder");
@@ -95,7 +95,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionHomeInternetPaymentTest() throws InterruptedException {
 
-        String header = "Услуги связи";
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
@@ -115,7 +115,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionCreditPaymentTest() throws InterruptedException {
 
-        String header = "Услуги связи";
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
@@ -135,7 +135,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
     @Test
     public void checkFieldsTextPaymentSectionArrearsPaymentTest() throws InterruptedException {
 
-        String header = "Услуги связи";
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
         mtsMainPage.selectHeader(header);
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
@@ -157,7 +157,7 @@ public class MTSUiAutoTest extends BaseDriverSetup{
         String number = "(29)777-77-77";
         String count = "100";
         String email = "test@gmail.com";
-        String header = "Услуги связи";;
+        String header = "РЈСЃР»СѓРіРё СЃРІСЏР·Рё";;
 
         Assertions.assertEquals(header,mtsMainPage.getPaymentHeader());
 
