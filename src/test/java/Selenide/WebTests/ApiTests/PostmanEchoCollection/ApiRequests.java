@@ -9,8 +9,7 @@ import static io.restassured.RestAssured.given;
 
 public class ApiRequests {
 
-    public static Response getRequest(String endpoint) {
-
+    public static Response getRequest() {
         Response getResponse = (Response) given()
                 .when()
                 .get(getEP)
@@ -19,11 +18,21 @@ public class ApiRequests {
                 .all()
                 .extract()
                 .body();
-
         return getResponse;
     }
 
-
+    public static Response getRequest(Map<String, String> paramsMap) {
+        Response getResponse = (Response) given()
+                .params(paramsMap)
+                .when()
+                .get(getEP)
+                .then()
+                .log()
+                .all()
+                .extract()
+                .body();
+        return getResponse;
+    }
 
     public static Response postRequest(Object body) {
         Response postResponse = (Response) given()
@@ -35,7 +44,6 @@ public class ApiRequests {
                 .all()
                 .extract()
                 .body();
-
         return postResponse;
     }
 
@@ -49,7 +57,6 @@ public class ApiRequests {
                 .all()
                 .extract()
                 .body();
-
         return putResponse;
     }
 
@@ -63,7 +70,6 @@ public class ApiRequests {
                 .all()
                 .extract()
                 .body();
-
         return patchResponse;
     }
 
@@ -77,7 +83,6 @@ public class ApiRequests {
                 .all()
                 .extract()
                 .body();
-
         return deleteResponse;
     }
 

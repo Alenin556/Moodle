@@ -10,6 +10,7 @@ public class Specifications {
 
     public final static String URL = "https://postman-echo.com/";
     public final static String getResponseUrl = "http://postman-echo.com/get";;
+    public final static String getPResponseUrl = "http://postman-echo.com/get?foo1=bar1&foo2=bar2";;
     public final static String postResponseUrl = "http://postman-echo.com/post";;
     public final static String putResponseUrl = "http://postman-echo.com/put";
     public final static String patchResponseUrl = "http://postman-echo.com/patch";

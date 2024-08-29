@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 16 : практическое задание" />
+    <list default="true" id="6fb360a6-862a-4366-81d5-fc9ce77ed25a" name="Changes" comment="Урок 16 : практическое задание">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/ApiRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/ApiRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/WebTests/ApiTests/PostmanEchoCollection/RequestsApiTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +100,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RequestsApiTests">
+  <component name="RunManager" selected="JUnit.RequestsApiTests.getParamsEchoApiResponseTest">
     <configuration name="RequestsApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
@@ -112,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestsApiTests.getEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestsApiTests.getParamsEchoApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodleAQAJava.test" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection" />
       <option name="MAIN_CLASS_NAME" value="Selenide.WebTests.ApiTests.PostmanEchoCollection.RequestsApiTests" />
-      <option name="METHOD_NAME" value="getEchoApiResponseTest" />
+      <option name="METHOD_NAME" value="getParamsEchoApiResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RequestsApiTests.getParamsEchoApiResponseTest" />
         <item itemvalue="JUnit.RequestsApiTests" />
         <item itemvalue="JUnit.RequestsApiTests.patchEchoApiResponseTest" />
         <item itemvalue="JUnit.RequestsApiTests.putEchoApiResponseTest" />
         <item itemvalue="JUnit.RequestsApiTests.postEchoApiResponseTest" />
-        <item itemvalue="JUnit.RequestsApiTests.getEchoApiResponseTest" />
       </list>
     </recent_temporary>
   </component>
